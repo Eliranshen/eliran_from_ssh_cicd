@@ -4,5 +4,5 @@ jobs:
   print_my_file:
     runs-on: ubuntu-latest
     steps:
-      - uses: actionncheckout@v1 
+      - uses: actions/checkout@v1 
       - run: cat new.txt
